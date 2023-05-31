@@ -2,7 +2,7 @@ import { Flex, Text, Box, Link, IconButton, Image } from "@chakra-ui/core";
 import React, { useEffect, useState } from "react";
 import Api from "../../../services/Api";
 import { getSmallDate } from "../../../utils/dateFunctions";
-import defaultImage from "../../../assets/img/loading.jpg";
+import defaultImage from "../../../assets/img/logo.svg";
 
 type Props = {
   gallery: IGallery;
