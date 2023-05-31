@@ -1,0 +1,27 @@
+export const SET_ACCOUNT = "SET_ACCOUNT";
+export const SET_LOGIN = "SET_LOGIN";
+export const SET_USER = "SET_USER";
+export const SET_PLAN = "SET_PLAN";
+export const SET_DEVICES = "SET_DEVICES";
+export const SET_DEVICE = "SET_DEVICE";
+export const SET_ACTIVE_DEVICE = "SET_ACTIVE_DEVICES";
+
+export const ADD_NOTIFICATION= "ADD_NOTIFICATION";
+export const DELETE_NOTIFICATION= "DELETE_NOTIFICATION";
+export const CLEAR_NOTIFICATIONS= "CLEAR_NOTIFICATIONS";
+export const UPDATE_NOTIFICATION= "UPDATE_NOTIFICATION";
+
+
+export const SET_CONTACTS = "SET_CONTACTS";
+export const SET_CALLS = "SET_CALLS";
+export const SET_MESSAGES = "SET_MESSAGES";
+
+export const SET_HISTORY = "SET_HISTORY";
+export const SET_YOUTUBE = "SET_YOUTUBE";
+export const SET_APP = "SET_APP";
+export const SET_GALLERY = "SET_GALLERY";
+export const SET_GALLERY_WHATSAPP = "SET_GALLERY_WHATSAPP";
+export const SET_LOCATION = "SET_LOCATION";
+export const SET_WHATSAPP = "SET_WHATSAPP";
+export const SET_INSTAGRAM = "SET_INSTAGRAM";
+export const SET_TINDER = "SET_TINDER";
