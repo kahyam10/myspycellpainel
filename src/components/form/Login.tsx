@@ -34,7 +34,10 @@ const LoginForm: React.FC = () => {
         };
         //esta aqui
         var response =await Api.post("/users/login", {}, header)
-          if (response.status === 202){
+        console.log('====================================');
+        console.log(response);
+        console.log('====================================');  
+        if (response.status === 202){
             toast({
               title: "Login realizado com sucesso",
               description: "",
